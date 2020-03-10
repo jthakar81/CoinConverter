@@ -13,6 +13,8 @@ public class CoinConverterFactory {
 			return null;
 		}else if(currentcy.equals("US")){
 			return new CoinConverterUS();
+		}else if(currentcy.equals("INDIA")){
+			return new CoinConverterIndia();
 		}
 		return null;
 		
